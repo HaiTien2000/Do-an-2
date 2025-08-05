@@ -111,9 +111,10 @@ INSERT INTO cars (brand_id, model, year, color, engine_type, transmission, fuel_
 (4, 'X5', 2023, 'Silver', '3.0L 6-Cylinder', 'Automatic', 'Diesel', 8000.00, 2500000000, 'available');
 
 INSERT INTO employees (username, password, name, email, role) VALUES
-('admin', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Nguyễn Văn A', 'admin@showroom.com', 'admin'),
-('sales1', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Trần Văn B', 'sales1@showroom.com', 'sales'),
-('acc1', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Lê Thị C', 'acc1@showroom.com', 'accountant');
+('leader', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Phạm Thanh Phong', 'leader@showroom.com', 'admin'),
+('account', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Nguyễn Tiến Hải', 'account@showroom.com', 'accountant'),
+('sale1', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Nguyễn Huy Hưng', 'sale1@showroom.com', 'sales'),
+('sale2', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iAt6Z5EHsM8lE9lBOsl7iKTVEFDa', 'Nguyễn Quốc Tuấn', 'sale2@showroom.com', 'sales');
 
 INSERT INTO customers (name, email, phone, address) VALUES
 ('Phạm Văn D', 'pham.d@email.com', '0901234567', '123 Đường ABC, Quận 1, TP.HCM'),

@@ -54,9 +54,10 @@ public class LoginController {
     private boolean authenticateUser(String username, String password) {
         // TODO: Implement real authentication
         // For now, use hardcoded credentials
-        return ("admin".equals(username) && "password".equals(password)) ||
-               ("sales1".equals(username) && "password".equals(password)) ||
-               ("acc1".equals(username) && "password".equals(password));
+        return ("leader".equals(username) && "password".equals(password)) ||
+               ("account".equals(username) && "password".equals(password)) ||
+               ("sale1".equals(username) && "password".equals(password)) ||
+               ("sale2".equals(username) && "password".equals(password));
     }
 
     /**

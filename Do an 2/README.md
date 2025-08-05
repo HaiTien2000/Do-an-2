@@ -73,9 +73,10 @@ app.currency=VND
 
 | Username | Password | Role    | Tên           |
 |----------|----------|---------|---------------|
-| admin    | password | Admin   | Nguyễn Văn A  |
-| sales1   | password | Sales   | Trần Văn B    |
-| acc1     | password | Accountant | Lê Thị C   |
+| leader   | password | Admin   | Phạm Thanh Phong |
+| account  | password | Accountant | Nguyễn Tiến Hải |
+| sale1    | password | Sales   | Nguyễn Huy Hưng |
+| sale2    | password | Sales   | Nguyễn Quốc Tuấn |
 
 ## 🚀 Cài đặt và chạy
 
